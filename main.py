@@ -1,3 +1,13 @@
+try:
+    import audioop
+except ImportError:
+    import sys
+    try:
+        import audioop_lpm
+        sys.modules['audioop'] = audioop_lpm
+    except ImportError:
+        pass
+
 import discord
 from discord.ext import commands
 import os
