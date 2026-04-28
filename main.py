@@ -3,8 +3,8 @@ try:
 except ImportError:
     import sys
     try:
-        import audioop_lpm
-        sys.modules['audioop'] = audioop_lpm
+        import audioop_lts
+        sys.modules['audioop'] = audioop_lts
     except ImportError:
         pass
 
