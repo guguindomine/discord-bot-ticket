@@ -324,8 +324,7 @@ async def setup(ctx):
         "⛵ Sailor Piece (SP)\n"
         "🔥 Anime Rangers X (ARX)\n"
         "⭐ All Star Tower Defense (ASTD)\n"
-        "👑 Anime Overload
-     (AOL)"
+        "👑 Anime Overload (AOL)"
     )
     
     embed.add_field(
